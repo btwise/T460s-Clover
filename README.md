@@ -11,6 +11,10 @@
 - 添加了CPUFriend，可将基本频率降至800MHz。
 - 添加了老的的Mac启动的开机音
 
+## 安装注意事项
+- 安装时注意临时删除CLOVER/drivers/UEFI/EmuVariableUefi.efi文件，不然会出现安装结尾安装器过时的错误提示
+- 安装时使用config-install.plist配置文件，安装后使用config.plist配置文件
+
 ## 未支持的硬件
 - SD读卡器
 - 触摸板顶部物理鼠标按钮
